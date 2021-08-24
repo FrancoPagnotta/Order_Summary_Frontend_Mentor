@@ -221,8 +221,8 @@ body {
 /* MIN-WIDTH 768PX */
 @media screen and (min-width: 768px) {
 	.card-container {
-		width: 370px;
-		height: 600px;
+		width: 470px;
+		height: 700px;
 	}
 
 	.card-main {
@@ -237,7 +237,7 @@ body {
 	}
 
 	.paragraph {
-		font-size: 14.5px;
+		font-size: 17px;
 	}
 
 	.card-plans {
@@ -250,21 +250,21 @@ body {
 	}
 
 	.plan-title {
-		font-size: 16px;
+		font-size: 17.5px;
 	}
 
 	.plan-description {
-		font-size: 16px;
+		font-size: 17px;
 	}
 
 	.change-plan-btn {
-		font-size: 14px;
+		font-size: 15px;
 	}
 
 	.payment-btn {
 		width: 80%;
 		margin-bottom: 25px;
-		font-size: 14.5px;
+		font-size: 16px;
 	}
 
 	.check-icon {
@@ -272,7 +272,7 @@ body {
 	}
 
 	.cancel-order-btn {
-		font-size: 14px;
+		font-size: 15px;
 		font-weight: 700;
 	}
 }
@@ -280,16 +280,41 @@ body {
 /* MIN-WIDTH 1600PX */
 @media screen and (min-width: 1600px) {
 	.card-container {
-		width: 470px;
-		height: 700px;
+		width: 570px;
+		height: 800px;
 	}
 	
 	.title {
-		font-size: 27px;
+		font-size: 30px;
 	}
 
 	.card-main {
 		width: 70%;
+	}
+
+	.paragraph {
+		font-size: 17.5px;
+		line-height: 30px;
+	}
+
+	.plan-title {
+		font-size: 18px;
+	}
+
+	.plan-description {
+		font-size: 17px;
+	}
+
+	.change-plan-btn {
+		font-size: 15.5px;
+	}
+
+	.payment-btn {
+		font-size: 17px;
+	}
+
+	.cancel-order-btn {
+		font-size: 15.5px;
 	}
 }
 
